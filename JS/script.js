@@ -26,7 +26,7 @@ function MensagemFormatada(moedaConvertida){
    console.log('Moeda Convertida ' + moedaConvertida);
    aviso.textContent = 'O valor ' + (valorEmReal).toLocaleString('pt-br', {
       style: 'currency', currency: 'BRL'
-   }) + ' convertido em ' + moedaEstrangeira + ' é ' + moedaConvertida
+   }) + ' convertido em ' + moedaEstrangeira + ' é: ' + moedaConvertida
 }
 
 // Verificar se foi digitado algum valor para pode converter
