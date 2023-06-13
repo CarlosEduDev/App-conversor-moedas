@@ -29,7 +29,7 @@ function MensagemFormatada(moedaConvertida){
    }) + ' convertido em ' + moedaEstrangeira + ' é ' + moedaConvertida
 }
 
-// Verificar se foi digirado algum valor para pode converter
+// Verificar se foi digitado algum valor para pode converter
 function bloquearBotao(){
    if(valorDigitado.value == 0 || valorDigitado == '' || valorDigitado == null){
       btnConverter.setAttribute('disabled', 'disabled')
